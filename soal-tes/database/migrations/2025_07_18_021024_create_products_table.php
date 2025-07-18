@@ -6,9 +6,8 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
+    // Soal 2: Migration & Model
+    // Buatlah migration dan model untuk tabel products yang memiliki kolom: id, name, price, dan stock.
     public function up(): void
     {
         Schema::create('products', function (Blueprint $table) {
